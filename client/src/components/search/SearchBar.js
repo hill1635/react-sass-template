@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Search.scss";
-import SearchResults from "./searchresults/SearchResults";
+import SearchResults from "./SearchResults";
 import SearchBtn from "../buttons/Search";
 
 function SearchBar(props) {
