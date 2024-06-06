@@ -10,7 +10,9 @@
     "client": "cd client && npm run start",
     "install": "cd client && npm install",
     "build": "cd client && npm run build",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "npm run build",
+    "check-format": "npx prettier . -c --config config/.prettierrc.yaml",
+    "fix-format": "npx prettier . --write --config config/.prettierrc.yaml"
   },
   "repository": {
     "type": "git",
