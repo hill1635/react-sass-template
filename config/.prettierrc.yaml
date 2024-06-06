@@ -1,10 +1,10 @@
 printWidth: 120
 tabWidth: 1
-usetabs: true
+useTabs: true
 semi: true
 singleQuote: true
 quoteProps: as-needed
-trailingCommas: none
+trailingComma: none
 bracketSpacing: true
 bracketSameLine: true
 arrowParens: always
